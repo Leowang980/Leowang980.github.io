@@ -20,7 +20,8 @@ redirect_from:
 - Reinforcement Learning
 - Federated Learning
 - Knowledge Distillation
-**Looking for a PhD position in AI focused on my Research Interests.**
+
+❤️**Looking for a PhD position in AI focused on my Research Interests.**❤️
 
 🛠️ **Research Experience**  
 - Collaborated with [**Jingkang Yang**](https://jingkang50.github.io/) (Ph.D. student at NTU-MMlab):  
