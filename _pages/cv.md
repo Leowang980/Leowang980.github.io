@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+[pdf](https://academicpages.github.io/files/XiuyingWang.pdf) version available
 # Xiuying Wang
 
 📧 xiuying.wang@se23.qmul.ac.uk | 📱 +86 18681229122 | 🌍 Based in Beijing, China
