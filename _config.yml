@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Xiuying Wang / about me"
+title                    : "Xiuying Wang / About Me"
 title_separator          : "-"
 name                     : &name "Xiuying Wang(王修荧)"
 description              : &description "personal description"
@@ -225,6 +225,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -280,6 +283,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
       author_profile: true
       share: true
 
