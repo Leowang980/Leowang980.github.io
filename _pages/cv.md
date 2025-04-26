@@ -21,7 +21,7 @@ redirect_from:
 **Queen Mary University of London (QMUL)**  
 *Sophomore in Internet of Things(IoT)*  
 - Expected Graduation: 2027  
-- GPA: **3.81/4.0** (Top **6%**)
+- GPA: **92.05/100** (3.81/4.0) **Top6%**
 
 **Relevant Coursework**:  
 - Machine Learning, Deep Learning, Computer Vision, Data Structures and Algorithms, Embedded Systems
@@ -42,8 +42,8 @@ redirect_from:
 
 ## Research Interests
 
-- LLM
-- Vision-Language Models  
+- Large Multi-modal Models 
+- Reinforcement Learning
 - Federated Learning  
 - Knowledge Distillation
 
