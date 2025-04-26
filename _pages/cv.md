@@ -9,56 +9,55 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Xiuying Wang
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+📧 xiuying.wang@se23.qmul.ac.uk | 📱 +86 18681229122 | 🌍 Based in Beijing, China
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Beijing University of Posts and Telecommunications (BUPT)** &  
+**Queen Mary University of London (QMUL)**  
+*Sophomore in Internet of Things(IoT)*  
+- Expected Graduation: 2027  
+- GPA: **3.81/4.0** (Top **6%**)
+
+**Relevant Coursework**:  
+- Machine Learning, Deep Learning, Computer Vision, Data Structures and Algorithms, Embedded Systems
+
+---
+
+## Research Experience
+
+**Jingkang Yang** (Ph.D. student at NTU-MMlab)  
+- Worked on **large multi-modal models**.  
+- Processed the **EgoLife Dataset** and helped construct **EgoRAG**, a retrieval-augmented generation system.
+
+**Yichen Li** (Ph.D. student at HUST)  
+- Conducted research on **federated learning** and **knowledge distillation**.  
+- Second author on a paper currently **under review at ICCV 2025**.
+
+---
+
+## Research Interests
+
+- LLM
+- Vision-Language Models  
+- Federated Learning  
+- Knowledge Distillation
+
+---
+
+## Skills
+
+- **Programming**: Python, C/C++, Java
+- **Frameworks/Tools**: Hugging Face, PyTorch, etc.
+
+---
+
+## Languages
+
+- English: Fluent  
+- Chinese: Native
+
