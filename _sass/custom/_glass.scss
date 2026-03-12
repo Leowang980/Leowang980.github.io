@@ -1,0 +1,209 @@
+/* ==========================================================================
+   GLASSMORPHISM & TECH STYLE - Monochrome Black/White/Gray Only
+   ========================================================================== */
+
+/* Body: Tech grid background */
+body {
+  background-color: var(--glass-bg-base) !important;
+  background-image: 
+    linear-gradient(var(--glass-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--glass-grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Masthead: Full glassmorphism */
+.masthead {
+  background: var(--glass-masthead-bg) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 4px 30px var(--glass-shadow);
+
+  &::after {
+    display: none;
+  }
+}
+
+.masthead__menu-item {
+  background: transparent !important;
+}
+
+/* Greedy nav: glass dropdown */
+.greedy-nav {
+  background: transparent !important;
+
+  .hidden-links {
+    background: var(--glass-card-bg) !important;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 8px 32px var(--glass-shadow);
+    border-radius: 12px;
+
+    &:after {
+      border-color: var(--glass-card-bg) transparent !important;
+    }
+  }
+
+  button {
+    background: var(--glass-btn-bg) !important;
+    color: var(--glass-btn-text) !important;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+  }
+}
+
+/* Sidebar: Glass card */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    padding: 1.5em 1em;
+    margin: 1em;
+    margin-top: calc(#{$masthead-height} + 1em);
+    background: var(--glass-card-bg) !important;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px var(--glass-shadow);
+    max-height: calc(100vh - #{$masthead-height} - 2em);
+  }
+}
+
+/* Author avatar: glass ring */
+.author__avatar img {
+  @include breakpoint($large) {
+    border: 2px solid var(--glass-border) !important;
+    box-shadow: 0 0 0 4px var(--glass-card-bg), 0 8px 24px var(--glass-shadow) !important;
+  }
+}
+
+/* Main content: Glass card */
+@include breakpoint($large) {
+  #main .page,
+  #main .archive {
+    background: var(--glass-card-bg) !important;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px var(--glass-shadow);
+    padding: 2em 2.5em !important;
+    margin-top: 1.5em;
+  }
+}
+
+/* Archive items: subtle glass on hover */
+.list__item {
+  padding: 0.75em 0;
+  margin: 0.25em 0;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list__item .archive__item {
+  padding: 1em 1.25em;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list__item:hover .archive__item {
+  background: var(--glass-hover-bg);
+  box-shadow: 0 4px 20px var(--glass-shadow);
+}
+
+/* Page content area */
+.page__inner-wrap {
+  .page__content {
+    padding-right: 0.5em;
+  }
+}
+
+/* Footer: Glass bar */
+.page__footer {
+  background: var(--glass-footer-bg) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-top: 1px solid var(--glass-border);
+  box-shadow: 0 -4px 30px var(--glass-shadow);
+}
+
+/* Links: clean underline, no blue */
+a {
+  color: var(--global-link-color) !important;
+
+  &:hover {
+    color: var(--global-link-color-hover) !important;
+  }
+}
+
+/* Code blocks: glass style */
+code, pre, kbd {
+  background: var(--glass-code-bg) !important;
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+}
+
+/* Blockquote: glass accent */
+blockquote {
+  border-left: 4px solid var(--glass-border);
+  background: var(--glass-hover-bg);
+  padding: 1em 1.5em;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5em 0;
+}
+
+/* Buttons */
+.btn {
+  background: var(--glass-btn-bg) !important;
+  color: var(--glass-btn-text) !important;
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+
+  &:hover {
+    background: var(--glass-hover-bg) !important;
+    box-shadow: 0 4px 12px var(--glass-shadow);
+  }
+}
+
+/* Taxonomy tags */
+.page__taxonomy-item {
+  background: var(--glass-hover-bg) !important;
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+}
+
+/* TOC: glass style */
+.toc {
+  background: var(--glass-card-bg) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px var(--glass-shadow);
+}
+
+.toc__menu a:hover {
+  background: var(--glass-hover-bg) !important;
+}
+
+/* Pagination: ensure monochrome */
+.pagination li a.current {
+  background: var(--global-base-color) !important;
+  color: #fff !important;
+  border-color: var(--global-base-color);
+}
+
+/* Force all icons to monochrome - no brand colors */
+.social-icons a,
+.author__urls a,
+.fab, .fas, .far, .fal, .ai {
+  color: inherit !important;
+}
+
+.social-icons a:hover,
+.author__urls a:hover {
+  color: var(--global-link-color-hover) !important;
+}

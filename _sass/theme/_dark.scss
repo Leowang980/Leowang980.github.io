@@ -26,4 +26,17 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$text-muted};
     --global-thead-color                : #{$background-lighter};
+
+    /* Glassmorphism - Dark theme */
+    --glass-bg-base                     : #0a0a0f;
+    --glass-grid-line                   : rgba(255, 255, 255, 0.04);
+    --glass-masthead-bg                 : rgba(15, 15, 20, 0.75);
+    --glass-card-bg                     : rgba(30, 30, 40, 0.6);
+    --glass-footer-bg                   : rgba(15, 15, 20, 0.75);
+    --glass-border                      : rgba(255, 255, 255, 0.08);
+    --glass-shadow                      : rgba(0, 0, 0, 0.3);
+    --glass-hover-bg                    : rgba(255, 255, 255, 0.05);
+    --glass-btn-bg                      : rgba(255, 255, 255, 0.15);
+    --glass-btn-text                    : #ffffff;
+    --glass-code-bg                     : rgba(0, 0, 0, 0.3);
 }

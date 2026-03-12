@@ -44,4 +44,17 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$gray};
     --global-thead-color                : #{$lighter-gray};
+
+    /* Glassmorphism - Light theme */
+    --glass-bg-base                     : #f1f5f9;
+    --glass-grid-line                   : rgba(0, 0, 0, 0.06);
+    --glass-masthead-bg                 : rgba(255, 255, 255, 0.72);
+    --glass-card-bg                     : rgba(255, 255, 255, 0.72);
+    --glass-footer-bg                   : rgba(255, 255, 255, 0.72);
+    --glass-border                      : rgba(0, 0, 0, 0.08);
+    --glass-shadow                      : rgba(0, 0, 0, 0.06);
+    --glass-hover-bg                    : rgba(0, 0, 0, 0.03);
+    --glass-btn-bg                      : rgba(0, 0, 0, 0.85);
+    --glass-btn-text                    : #ffffff;
+    --glass-code-bg                     : rgba(0, 0, 0, 0.04);
 }
