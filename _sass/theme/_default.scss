@@ -1,13 +1,13 @@
 /* ==========================================================================
-   DEFAULT THEME - Warm Neutral Palette
+   DEFAULT THEME - Industrial Dark Palette
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #6d645c;
-$dark-gray                  : #2f2720;
-$darker-gray                : #1f1914;
-$light-gray                 : #998b7f;
-$lighter-gray               : #d9ccbe;
+$gray                       : #a2a8ad;
+$dark-gray                  : #e6ecef;
+$darker-gray                : #f7fafc;
+$light-gray                 : #6f7982;
+$lighter-gray               : #2c343b;
 
 /* Color codes used for the site */
 $danger-color               : #6b7280;
@@ -26,37 +26,38 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme */
+/* Default dark theme */
 :root {
     --global-base-color                 : #{$darker-gray};
-    --global-bg-color                   : #f6f1e8;
-    --global-footer-bg-color            : #efe5d8;
+    --global-bg-color                   : #12171b;
+    --global-footer-bg-color            : #0f1418;
     --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #cbbca9;
-    --global-code-background-color      : #f2e7d8;
+    --global-dark-border-color          : #3a434b;
+    --global-code-background-color      : #171e24;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$gray};
-    --global-link-color                 : #694325;
-    --global-link-color-hover           : #2a1b11;
+    --global-link-color                 : #e6ecef;
+    --global-link-color-hover           : #ff8c42;
     --global-link-color-visited         : #{$gray};
     --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : #2a1b11;
+    --global-masthead-link-color-hover  : #ff8c42;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$gray};
-    --global-thead-color                : #e6dccc;
+    --global-thead-color                : #1d252b;
 
-    --glass-bg-base                     : #f3ecdf;
-    --glass-grid-line                   : rgba(91, 63, 33, 0.08);
-    --glass-masthead-bg                 : rgba(250, 244, 236, 0.88);
-    --glass-card-bg                     : rgba(255, 251, 245, 0.82);
-    --glass-footer-bg                   : rgba(243, 233, 220, 0.92);
-    --glass-border                      : rgba(102, 73, 44, 0.16);
-    --glass-shadow                      : rgba(71, 47, 24, 0.12);
-    --glass-hover-bg                    : rgba(147, 99, 52, 0.1);
-    --glass-btn-bg                      : #3e2d1f;
-    --glass-btn-text                    : #ffffff;
-    --glass-code-bg                     : #f2e7d7;
-    --accent-color                      : #b56a2e;
-    --accent-soft                       : rgba(181, 106, 46, 0.14);
-    --surface-raised                    : #fffaf2;
+    --glass-bg-base                     : #0f1418;
+    --glass-grid-line                   : rgba(220, 229, 236, 0.065);
+    --glass-masthead-bg                 : rgba(12, 16, 20, 0.86);
+    --glass-card-bg                     : rgba(18, 23, 27, 0.9);
+    --glass-footer-bg                   : rgba(12, 16, 20, 0.92);
+    --glass-border                      : rgba(222, 232, 240, 0.16);
+    --glass-shadow                      : rgba(0, 0, 0, 0.45);
+    --glass-hover-bg                    : rgba(255, 140, 66, 0.14);
+    --glass-btn-bg                      : #ff8c42;
+    --glass-btn-text                    : #130d09;
+    --glass-code-bg                     : #161d23;
+    --accent-color                      : #ff8c42;
+    --accent-soft                       : rgba(255, 140, 66, 0.22);
+    --warning-accent                    : #ff5b43;
+    --surface-raised                    : #161d23;
 }

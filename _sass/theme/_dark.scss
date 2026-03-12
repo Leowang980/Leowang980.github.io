@@ -1,43 +1,44 @@
 /* ==========================================================================
-   DARK THEME - Warm Neutral Palette
+   DARK THEME - Deep Space Variant
    ========================================================================== */
 
-$background                 : #17120f;
-$background-light           : #231b16;
-$background-lighter         : #3a2d24;
-$text                       : #f4eadc;
-$text-muted                 : #b6a28c;
+$background                 : #090d11;
+$background-light           : #10161c;
+$background-lighter         : #26303a;
+$text                       : #f3f7fa;
+$text-muted                 : #9eaab4;
 
 html[data-theme="dark"] {
     --global-base-color                 : #{$background-light};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #1c1511;
+    --global-footer-bg-color            : #080b0e;
     --global-border-color               : #{$background-lighter};
-    --global-dark-border-color          : #4b3a2d;
-    --global-code-background-color      : #2a2019;
+    --global-dark-border-color          : #34404b;
+    --global-code-background-color      : #141a20;
     --global-code-text-color            : #{$text};
     --global-fig-caption-color          : #{$text-muted};
-    --global-link-color                 : #efb480;
-    --global-link-color-hover           : #ffd3ad;
+    --global-link-color                 : #f0f6fa;
+    --global-link-color-hover           : #ff9a57;
     --global-link-color-visited         : #{$text-muted};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #ffd3ad;
+    --global-masthead-link-color-hover  : #ff9a57;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$text-muted};
     --global-thead-color                : #{$background-lighter};
 
-    --glass-bg-base                     : #130e0b;
-    --glass-grid-line                   : rgba(240, 216, 190, 0.06);
-    --glass-masthead-bg                 : rgba(22, 16, 12, 0.88);
-    --glass-card-bg                     : rgba(35, 27, 22, 0.78);
-    --glass-footer-bg                   : rgba(23, 18, 14, 0.92);
-    --glass-border                      : rgba(235, 202, 168, 0.16);
+    --glass-bg-base                     : #070b0f;
+    --glass-grid-line                   : rgba(222, 232, 240, 0.065);
+    --glass-masthead-bg                 : rgba(8, 11, 15, 0.88);
+    --glass-card-bg                     : rgba(16, 22, 28, 0.9);
+    --glass-footer-bg                   : rgba(8, 11, 15, 0.92);
+    --glass-border                      : rgba(222, 232, 240, 0.18);
     --glass-shadow                      : rgba(0, 0, 0, 0.35);
-    --glass-hover-bg                    : rgba(239, 180, 128, 0.12);
-    --glass-btn-bg                      : #efb480;
-    --glass-btn-text                    : #1d130d;
-    --glass-code-bg                     : #2a2019;
-    --accent-color                      : #efb480;
-    --accent-soft                       : rgba(239, 180, 128, 0.2);
-    --surface-raised                    : #2a2018;
+    --glass-hover-bg                    : rgba(255, 154, 87, 0.14);
+    --glass-btn-bg                      : #ff9a57;
+    --glass-btn-text                    : #170f0a;
+    --glass-code-bg                     : #141a20;
+    --accent-color                      : #ff9a57;
+    --accent-soft                       : rgba(255, 154, 87, 0.22);
+    --warning-accent                    : #ff6452;
+    --surface-raised                    : #141a20;
 }
