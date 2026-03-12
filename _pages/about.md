@@ -7,31 +7,46 @@ redirect_from:
   - /about.html
 ---
 
-
 ## About Me
 
-🎓 **Education**  
-- Year 2 undergraduate student in a joint program between [**Beijing University of Posts and Telecommunications (BUPT)**](https://www.bupt.edu.cn/) and [**Queen Mary University of London (QMUL)**](https://www.qmul.ac.uk/).  
-- Major: **Internet of Things (IoT)**.  
-- GPA: **3.81/4.0** (Top 6%).
+<div class="home-intro">
+I am a sophomore in the BUPT-QMUL joint program, majoring in Internet of Things (IoT), with a current GPA of <strong>3.81/4.0</strong> (Top 6%). My current focus is building practical and research-oriented AI systems for multimodal understanding and efficient learning.
+</div>
 
-🔬 **Research Interests**  
-- Multi-modal Large Models  
-- Reinforcement Learning
-- Federated Learning
-- Knowledge Distillation
+<div class="home-grid">
+  <section class="home-card">
+    <h3>Education</h3>
+    <ul>
+      <li>BUPT-QMUL Joint Program, Year 2 Undergraduate</li>
+      <li>Major: Internet of Things (IoT)</li>
+      <li>GPA: 3.81/4.0 (Top 6%)</li>
+    </ul>
+  </section>
 
-❤️**Looking for a PhD position in AI focused on my Research Interests.**❤️
+  <section class="home-card">
+    <h3>Research Interests</h3>
+    <ul>
+      <li>Multimodal Large Models</li>
+      <li>Reinforcement Learning</li>
+      <li>Federated Learning</li>
+      <li>Knowledge Distillation</li>
+    </ul>
+  </section>
 
-🛠️ **Research Experience**  
-- Collaborated with [**Jingkang Yang**](https://jingkang50.github.io/) (Ph.D. student at NTU-MMlab):  
-  - Worked on **large multi-modal models**.  
-  - Processed the **EgoLife Dataset** and constructed **EgoRAG**.
+  <section class="home-card home-card--full">
+    <h3>Research Experience</h3>
+    <ul>
+      <li>Collaborated with <a href="https://jingkang50.github.io/">Jingkang Yang</a> (NTU-MMlab) on large multimodal models, including EgoLife data processing and EgoRAG construction.</li>
+      <li>Collaborated with <a href="https://yichenli-hust.github.io/">Yichen Li</a> (HUST) on federated learning and knowledge distillation; currently second author of a paper under review at ICCV.</li>
+    </ul>
+  </section>
 
-- Collaborated with [**Yichen Li**](https://yichenli-hust.github.io/) (Ph.D. student at HUST):  
-  - Researched **federated learning** and **knowledge distillation**.  
-  - Second author on a paper under review at **ICCV**.
-
-💬 **Contact**  
-- Email: `xiuying.wang@se23.qmul.ac.uk`
-- Phone: `+86 18681229122`
+  <section class="home-card home-card--full">
+    <h3>Contact</h3>
+    <ul>
+      <li>Email: <code>xiuying.wang@se23.qmul.ac.uk</code></li>
+      <li>Phone: <code>+86 18681229122</code></li>
+      <li>Seeking PhD opportunities in AI related to the directions above.</li>
+    </ul>
+  </section>
+</div>

@@ -1,42 +1,43 @@
 /* ==========================================================================
-   DARK THEME - Monochrome Black/White/Gray
+   DARK THEME - Warm Neutral Palette
    ========================================================================== */
 
-$background                 : #0f172a;
-$background-light           : #1e293b;
-$background-lighter         : #334155;
-$text                       : #f1f5f9;
-$text-muted                 : #94a3b8;
+$background                 : #17120f;
+$background-light           : #231b16;
+$background-lighter         : #3a2d24;
+$text                       : #f4eadc;
+$text-muted                 : #b6a28c;
 
-/* Dark theme - Sleek monochrome */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background-light};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
+    --global-footer-bg-color            : #1c1511;
     --global-border-color               : #{$background-lighter};
-    --global-dark-border-color          : #475569;
-    --global-code-background-color      : #1e293b;
+    --global-dark-border-color          : #4b3a2d;
+    --global-code-background-color      : #2a2019;
     --global-code-text-color            : #{$text};
     --global-fig-caption-color          : #{$text-muted};
-    --global-link-color                 : #{$text};
-    --global-link-color-hover           : #ffffff;
+    --global-link-color                 : #efb480;
+    --global-link-color-hover           : #ffd3ad;
     --global-link-color-visited         : #{$text-muted};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #ffffff;
+    --global-masthead-link-color-hover  : #ffd3ad;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$text-muted};
     --global-thead-color                : #{$background-lighter};
 
-    /* Glassmorphism - Dark theme */
-    --glass-bg-base                     : #0a0a0f;
-    --glass-grid-line                   : rgba(255, 255, 255, 0.04);
-    --glass-masthead-bg                 : rgba(15, 15, 20, 0.75);
-    --glass-card-bg                     : rgba(30, 30, 40, 0.6);
-    --glass-footer-bg                   : rgba(15, 15, 20, 0.75);
-    --glass-border                      : rgba(255, 255, 255, 0.08);
-    --glass-shadow                      : rgba(0, 0, 0, 0.3);
-    --glass-hover-bg                    : rgba(255, 255, 255, 0.05);
-    --glass-btn-bg                      : rgba(255, 255, 255, 0.15);
-    --glass-btn-text                    : #ffffff;
-    --glass-code-bg                     : rgba(0, 0, 0, 0.3);
+    --glass-bg-base                     : #130e0b;
+    --glass-grid-line                   : rgba(240, 216, 190, 0.06);
+    --glass-masthead-bg                 : rgba(22, 16, 12, 0.88);
+    --glass-card-bg                     : rgba(35, 27, 22, 0.78);
+    --glass-footer-bg                   : rgba(23, 18, 14, 0.92);
+    --glass-border                      : rgba(235, 202, 168, 0.16);
+    --glass-shadow                      : rgba(0, 0, 0, 0.35);
+    --glass-hover-bg                    : rgba(239, 180, 128, 0.12);
+    --glass-btn-bg                      : #efb480;
+    --glass-btn-text                    : #1d130d;
+    --glass-code-bg                     : #2a2019;
+    --accent-color                      : #efb480;
+    --accent-soft                       : rgba(239, 180, 128, 0.2);
+    --surface-raised                    : #2a2018;
 }

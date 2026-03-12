@@ -1,13 +1,13 @@
 /* ==========================================================================
-   DEFAULT THEME - Monochrome Black/White/Gray
+   DEFAULT THEME - Warm Neutral Palette
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #6b7280;
-$dark-gray                  : #1f2937;
-$darker-gray                : #111827;
-$light-gray                 : #9ca3af;
-$lighter-gray               : #e5e7eb;
+$gray                       : #6d645c;
+$dark-gray                  : #2f2720;
+$darker-gray                : #1f1914;
+$light-gray                 : #998b7f;
+$lighter-gray               : #d9ccbe;
 
 /* Color codes used for the site */
 $danger-color               : #6b7280;
@@ -26,35 +26,37 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme - Clean monochrome */
+/* Default light theme */
 :root {
     --global-base-color                 : #{$darker-gray};
-    --global-bg-color                   : #ffffff;
-    --global-footer-bg-color            : #f9fafb;
+    --global-bg-color                   : #f6f1e8;
+    --global-footer-bg-color            : #efe5d8;
     --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #d1d5db;
-    --global-code-background-color      : #f3f4f6;
+    --global-dark-border-color          : #cbbca9;
+    --global-code-background-color      : #f2e7d8;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$gray};
-    --global-link-color                 : #{$dark-gray};
-    --global-link-color-hover           : #000000;
+    --global-link-color                 : #694325;
+    --global-link-color-hover           : #2a1b11;
     --global-link-color-visited         : #{$gray};
     --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : #000000;
+    --global-masthead-link-color-hover  : #2a1b11;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-thead-color                : #e6dccc;
 
-    /* Glassmorphism - Light theme */
-    --glass-bg-base                     : #f1f5f9;
-    --glass-grid-line                   : rgba(0, 0, 0, 0.06);
-    --glass-masthead-bg                 : rgba(255, 255, 255, 0.72);
-    --glass-card-bg                     : rgba(255, 255, 255, 0.72);
-    --glass-footer-bg                   : rgba(255, 255, 255, 0.72);
-    --glass-border                      : rgba(0, 0, 0, 0.08);
-    --glass-shadow                      : rgba(0, 0, 0, 0.06);
-    --glass-hover-bg                    : rgba(0, 0, 0, 0.03);
-    --glass-btn-bg                      : rgba(0, 0, 0, 0.85);
+    --glass-bg-base                     : #f3ecdf;
+    --glass-grid-line                   : rgba(91, 63, 33, 0.08);
+    --glass-masthead-bg                 : rgba(250, 244, 236, 0.88);
+    --glass-card-bg                     : rgba(255, 251, 245, 0.82);
+    --glass-footer-bg                   : rgba(243, 233, 220, 0.92);
+    --glass-border                      : rgba(102, 73, 44, 0.16);
+    --glass-shadow                      : rgba(71, 47, 24, 0.12);
+    --glass-hover-bg                    : rgba(147, 99, 52, 0.1);
+    --glass-btn-bg                      : #3e2d1f;
     --glass-btn-text                    : #ffffff;
-    --glass-code-bg                     : rgba(0, 0, 0, 0.04);
+    --glass-code-bg                     : #f2e7d7;
+    --accent-color                      : #b56a2e;
+    --accent-soft                       : rgba(181, 106, 46, 0.14);
+    --surface-raised                    : #fffaf2;
 }
