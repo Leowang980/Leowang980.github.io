@@ -2,7 +2,7 @@
 
 <!-- start custom head snippets -->
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -11,6 +11,14 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- Custom monochrome enhancements -->
+<style>
+  body { font-feature-settings: "kern" 1, "liga" 1; }
+  .page__content a { text-decoration: none; border-bottom: 1px solid var(--global-border-color); transition: border-color 0.2s ease, color 0.2s ease; }
+  .page__content a:hover { border-bottom-color: var(--global-text-color); }
+  .archive .page__title { border-bottom: 2px solid var(--global-border-color); padding-bottom: 0.5em; }
+</style>
 
 
 <!-- Support for MatJax -->

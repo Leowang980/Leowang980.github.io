@@ -210,7 +210,8 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        font-weight: 700;
+        letter-spacing: -0.02em;
         text-wrap: wrap;
 
         a {
@@ -242,20 +243,20 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: var(--global-border-color);
+        height: 2px;
+        background: var(--global-masthead-link-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+                transform: scaleX(0);
       }
 
       &:hover:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+                transform: scaleX(1);
       }
     }
   }
