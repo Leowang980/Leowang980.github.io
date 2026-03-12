@@ -1,24 +1,24 @@
 /* ==========================================================================
-   DEFAULT THEME - Industrial Dark Palette
+   DEFAULT THEME - BRIDGES Light Palette
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #a2a8ad;
-$dark-gray                  : #e6ecef;
-$darker-gray                : #f7fafc;
-$light-gray                 : #6f7982;
-$lighter-gray               : #2c343b;
+$gray                       : #6d7987;
+$dark-gray                  : #2c3642;
+$darker-gray                : #141a22;
+$light-gray                 : #8d98a7;
+$lighter-gray               : #d6dde8;
 
 /* Color codes used for the site */
-$danger-color               : #6b7280;
-$info-color                 : #4b5563;
-$notice-color               : #6b7280;
-$success-color              : #6b7280;
-$warning-color              : #6b7280;
+$danger-color               : #c93c3c;
+$info-color                 : #0a7aff;
+$notice-color               : #0a7aff;
+$success-color              : #2c9f55;
+$warning-color              : #d9901a;
 
 /* Other basic settings for the template */
-$border-radius              : 6px;
-$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.08);
+$border-radius              : 12px;
+$box-shadow                 : 0 8px 24px rgba(31, 38, 50, 0.08);
 $global-transition          : all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -26,38 +26,47 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default dark theme */
+/* BRIDGES-like light terminal palette */
 :root {
-    --global-base-color                 : #{$darker-gray};
-    --global-bg-color                   : #12171b;
-    --global-footer-bg-color            : #0f1418;
+    --global-base-color                 : #{$dark-gray};
+    --global-bg-color                   : #eef2f8;
+    --global-footer-bg-color            : #e4eaf4;
     --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #3a434b;
-    --global-code-background-color      : #171e24;
-    --global-code-text-color            : #{$darker-gray};
+    --global-dark-border-color          : #c3ccda;
+    --global-code-background-color      : #f4f7fb;
+    --global-code-text-color            : #1f2a38;
     --global-fig-caption-color          : #{$gray};
-    --global-link-color                 : #e6ecef;
-    --global-link-color-hover           : #ff8c42;
-    --global-link-color-visited         : #{$gray};
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : #ff8c42;
+    --global-link-color                 : #0a5dd8;
+    --global-link-color-hover           : #0049b8;
+    --global-link-color-visited         : #556274;
+    --global-masthead-link-color        : #2f3a47;
+    --global-masthead-link-color-hover  : #0a5dd8;
     --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$gray};
-    --global-thead-color                : #1d252b;
+    --global-text-color-light           : #7a8695;
+    --global-thead-color                : #dce3ef;
 
-    --glass-bg-base                     : #0f1418;
-    --glass-grid-line                   : rgba(220, 229, 236, 0.065);
-    --glass-masthead-bg                 : rgba(12, 16, 20, 0.86);
-    --glass-card-bg                     : rgba(18, 23, 27, 0.9);
-    --glass-footer-bg                   : rgba(12, 16, 20, 0.92);
-    --glass-border                      : rgba(222, 232, 240, 0.16);
-    --glass-shadow                      : rgba(0, 0, 0, 0.45);
-    --glass-hover-bg                    : rgba(255, 140, 66, 0.14);
-    --glass-btn-bg                      : #ff8c42;
-    --glass-btn-text                    : #130d09;
-    --glass-code-bg                     : #161d23;
-    --accent-color                      : #ff8c42;
-    --accent-soft                       : rgba(255, 140, 66, 0.22);
-    --warning-accent                    : #ff5b43;
-    --surface-raised                    : #161d23;
+    --terminal-canvas                   : #eef4fb;
+    --terminal-glow-soft                : rgba(127, 194, 231, 0.26);
+    --terminal-grid-line                : rgba(116, 156, 192, 0.17);
+    --terminal-header-bg                : rgba(245, 250, 255, 0.82);
+    --terminal-panel-bg                 : rgba(249, 252, 255, 0.84);
+    --terminal-panel-solid              : #f3f8ff;
+    --terminal-panel-muted              : rgba(237, 245, 253, 0.9);
+    --terminal-sidebar-bg               : rgba(238, 246, 255, 0.88);
+    --terminal-border                   : rgba(121, 149, 176, 0.32);
+    --terminal-border-strong            : rgba(90, 132, 168, 0.56);
+    --terminal-shadow                   : rgba(42, 69, 99, 0.2);
+    --terminal-hover-bg                 : rgba(88, 155, 212, 0.14);
+    --terminal-accent                   : #0e6bc8;
+    --terminal-accent-soft              : rgba(14, 107, 200, 0.2);
+    --terminal-warning                  : #cc8a1d;
+    --terminal-code-bg                  : #edf4fb;
+    --terminal-btn-bg                   : #0e6bc8;
+    --terminal-btn-text                 : #ffffff;
+
+    /* Compatibility aliases */
+    --accent-color                      : var(--terminal-accent);
+    --accent-soft                       : var(--terminal-accent-soft);
+    --warning-accent                    : var(--terminal-warning);
+    --surface-raised                    : var(--terminal-panel-solid);
 }
