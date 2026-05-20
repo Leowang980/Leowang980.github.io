@@ -149,6 +149,10 @@ body {
   color: var(--morandi-ink);
 }
 
+.mobile-menu-copy {
+  display: none !important;
+}
+
 #theme-toggle {
   display: list-item;
 }
@@ -594,6 +598,12 @@ html[data-theme="dark"] .cv-section:nth-of-type(9) {
   line-height: 1.62;
 }
 
+html[data-theme="dark"] .skills-list li {
+  border-color: rgba(159, 197, 211, 0.24);
+  background: rgba(57, 52, 44, 0.78);
+  color: var(--morandi-muted);
+}
+
 .skills-list strong,
 .cv-list strong,
 .publication strong {
@@ -646,19 +656,49 @@ html[data-theme="dark"] .cv-section:nth-of-type(9) {
 
   .profile-hero {
     min-height: auto;
-    grid-template-columns: 1fr;
-    gap: 1.8rem;
+    grid-template-columns: minmax(0, 1fr) clamp(86px, 24vw, 132px);
+    gap: 1.1rem 1rem;
+    align-items: start;
     padding-top: 2rem;
   }
 
+  .profile-hero > div {
+    display: contents;
+  }
+
+  .profile-hero__eyebrow,
+  .profile-hero h1 {
+    grid-column: 1;
+  }
+
+  .profile-hero__eyebrow {
+    margin-bottom: 1.1rem;
+  }
+
   .profile-hero__portrait {
-    justify-self: start;
-    width: min(68vw, 240px);
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    justify-self: end;
+    width: 100%;
+    margin: 0;
+  }
+
+  .profile-hero__subtitle,
+  .profile-hero__links {
+    grid-column: 1 / -1;
   }
 
   .cv-section {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .cv-section:nth-of-type(odd) {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-section__title {
+    position: static;
   }
 
   .cv-section:nth-of-type(odd) .cv-section__title,
@@ -684,6 +724,27 @@ html[data-theme="dark"] .cv-section:nth-of-type(9) {
 }
 
 @media screen and (max-width: 560px) {
+  .greedy-nav button.hidden {
+    display: block;
+    visibility: visible;
+  }
+
+  .greedy-nav .visible-links > .masthead__menu-item:not(.persist) {
+    display: none !important;
+  }
+
+  .greedy-nav .hidden-links {
+    min-width: 12rem;
+  }
+
+  .greedy-nav .hidden-links .masthead__menu-item:not(.mobile-menu-copy) {
+    display: none !important;
+  }
+
+  .greedy-nav .hidden-links .mobile-menu-copy {
+    display: block !important;
+  }
+
   .masthead__menu-item a {
     font-size: 0.82rem;
     padding: 0.3rem 0.55rem;

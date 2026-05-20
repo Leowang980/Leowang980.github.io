@@ -20,7 +20,17 @@
             <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden">
+          {% for link in site.data.navigation.main %}
+            {% assign root_prefix = link.url | slice: 0, 1 %}
+            {% if link.url contains 'http' or root_prefix == '/' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item mobile-menu-copy"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
       </nav>
     </div>
   </div>
