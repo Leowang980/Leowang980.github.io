@@ -47,47 +47,47 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #24231f;
-  --global-footer-bg-color: #1f1e1a;
-  --global-border-color: #4b463d;
-  --global-dark-border-color: #6f6658;
-  --global-code-background-color: #2f2d27;
-  --global-code-text-color: #ece5dc;
-  --global-link-color: #b6c0ba;
-  --global-link-color-hover: #d7d0c5;
+  --global-bg-color: #211f1b;
+  --global-footer-bg-color: #1b1a17;
+  --global-border-color: #585044;
+  --global-dark-border-color: #7d715f;
+  --global-code-background-color: #302d27;
+  --global-code-text-color: #f2eadf;
+  --global-link-color: #c5d8df;
+  --global-link-color-hover: #f0d3c8;
   --global-link-color-visited: #a9a096;
-  --global-masthead-link-color: #e8e0d4;
+  --global-masthead-link-color: #f0e7db;
   --global-masthead-link-color-hover: #ffffff;
-  --global-text-color: #e8e0d4;
-  --global-text-color-light: #b6ac9f;
-  --global-thead-color: #37342d;
+  --global-text-color: #f0e7db;
+  --global-text-color-light: #c6b9a9;
+  --global-thead-color: #3b362f;
 
-  --morandi-bg: #24231f;
-  --morandi-paper: #2d2b25;
-  --morandi-ink: #eee7dc;
-  --morandi-muted: #b6ac9f;
-  --morandi-line: #4b463d;
-  --morandi-sage: #9ba88f;
-  --morandi-blue: #8da6b0;
-  --morandi-taupe: #b5a798;
-  --morandi-clay: #bd8977;
-  --morandi-moss: #9ba88f;
-  --morandi-rose: #bd8d88;
-  --morandi-lavender: #a39fbd;
-  --morandi-ochre: #c1ab72;
-  --morandi-teal: #89aaa5;
-  --morandi-plum: #b38c9f;
-  --morandi-chip: #343129;
+  --morandi-bg: #211f1b;
+  --morandi-paper: #2d2a24;
+  --morandi-ink: #f2eadf;
+  --morandi-muted: #c6b9a9;
+  --morandi-line: #585044;
+  --morandi-sage: #b7c79d;
+  --morandi-blue: #9fc5d3;
+  --morandi-taupe: #d0bda5;
+  --morandi-clay: #de9b86;
+  --morandi-moss: #b7c79d;
+  --morandi-rose: #dfa09b;
+  --morandi-lavender: #beb6e0;
+  --morandi-ochre: #dfc072;
+  --morandi-teal: #9fcfc7;
+  --morandi-plum: #d39cb8;
+  --morandi-chip: #39342c;
   --morandi-shadow: rgba(0, 0, 0, 0.28);
   --section-accent: var(--morandi-clay);
-  --section-wash: rgba(189, 137, 119, 0.13);
-  --morandi-nav-bg: rgba(36, 35, 31, 0.9);
-  --morandi-link-bg: rgba(52, 49, 41, 0.76);
-  --morandi-hover-bg: rgba(157, 168, 143, 0.14);
+  --section-wash: rgba(222, 155, 134, 0.2);
+  --morandi-nav-bg: rgba(33, 31, 27, 0.91);
+  --morandi-link-bg: rgba(57, 52, 44, 0.82);
+  --morandi-hover-bg: rgba(159, 197, 211, 0.18);
   --morandi-body-bg:
-    linear-gradient(180deg, rgba(45, 43, 37, 0.92), rgba(36, 35, 31, 0.98)),
-    radial-gradient(circle at 18% 10%, rgba(155, 168, 143, 0.13), transparent 34%),
-    radial-gradient(circle at 88% 18%, rgba(141, 166, 176, 0.14), transparent 30%);
+    linear-gradient(180deg, rgba(45, 42, 36, 0.92), rgba(33, 31, 27, 0.98)),
+    radial-gradient(circle at 18% 10%, rgba(183, 199, 157, 0.18), transparent 34%),
+    radial-gradient(circle at 88% 18%, rgba(159, 197, 211, 0.2), transparent 30%);
 }
 
 html {
@@ -359,6 +359,38 @@ body {
 .cv-section:nth-of-type(9) {
   --section-accent: var(--morandi-plum);
   --section-wash: rgba(140, 105, 122, 0.14);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(2) {
+  --section-wash: rgba(183, 199, 157, 0.2);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(3) {
+  --section-wash: rgba(159, 197, 211, 0.22);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(4) {
+  --section-wash: rgba(223, 160, 155, 0.22);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(5) {
+  --section-wash: rgba(190, 182, 224, 0.2);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(6) {
+  --section-wash: rgba(222, 155, 134, 0.22);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(7) {
+  --section-wash: rgba(223, 192, 114, 0.2);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(8) {
+  --section-wash: rgba(159, 207, 199, 0.22);
+}
+
+html[data-theme="dark"] .cv-section:nth-of-type(9) {
+  --section-wash: rgba(211, 156, 184, 0.22);
 }
 
 .cv-section:nth-of-type(odd)::before {
