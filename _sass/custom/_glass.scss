@@ -28,8 +28,13 @@ html[data-theme="dark"] {
   --morandi-blue: #6f8490;
   --morandi-taupe: #b5a798;
   --morandi-clay: #a98273;
+  --morandi-moss: #8f987e;
+  --morandi-rose: #b58f87;
+  --morandi-lavender: #8b879d;
+  --morandi-ochre: #b5a06f;
   --morandi-chip: #ece5dc;
   --morandi-shadow: rgba(85, 75, 62, 0.12);
+  --section-accent: var(--morandi-clay);
 }
 
 html {
@@ -174,15 +179,19 @@ body {
   margin: 0;
   color: var(--morandi-ink);
   font-family: $global-font-family;
-  font-size: clamp(3rem, 7.4vw, 5.7rem);
+  font-size: clamp(3.15rem, 7.8vw, 6rem);
   font-weight: 700;
-  line-height: 1.08;
+  line-height: 0.98;
   letter-spacing: 0;
+}
+
+.profile-hero h1 span {
+  display: block;
 }
 
 .profile-hero__subtitle {
   max-width: 720px;
-  margin: 1.75rem 0 0;
+  margin: 2.35rem 0 0;
   color: var(--morandi-muted);
   font-size: clamp(1.08rem, 2vw, 1.32rem);
   line-height: 1.72;
@@ -241,6 +250,38 @@ body {
   counter-increment: cv-section;
 }
 
+.cv-section:nth-of-type(2) {
+  --section-accent: var(--morandi-moss);
+}
+
+.cv-section:nth-of-type(3) {
+  --section-accent: var(--morandi-blue);
+}
+
+.cv-section:nth-of-type(4) {
+  --section-accent: var(--morandi-rose);
+}
+
+.cv-section:nth-of-type(5) {
+  --section-accent: var(--morandi-lavender);
+}
+
+.cv-section:nth-of-type(6) {
+  --section-accent: var(--morandi-clay);
+}
+
+.cv-section:nth-of-type(7) {
+  --section-accent: var(--morandi-ochre);
+}
+
+.cv-section:nth-of-type(8) {
+  --section-accent: var(--morandi-moss);
+}
+
+.cv-section:nth-of-type(9) {
+  --section-accent: var(--morandi-blue);
+}
+
 .cv-section__title {
   position: sticky;
   top: 96px;
@@ -258,7 +299,7 @@ body {
   content: counter(cv-section, decimal-leading-zero);
   display: block;
   margin-bottom: 0.72rem;
-  color: var(--morandi-taupe);
+  color: var(--section-accent);
   font-family: $caption-font-family;
   font-size: 0.72rem;
   font-weight: 700;
@@ -271,7 +312,7 @@ body {
   width: 4.8rem;
   height: 2px;
   margin-top: 1rem;
-  background: linear-gradient(90deg, var(--morandi-clay), rgba(169, 130, 115, 0));
+  background: linear-gradient(90deg, var(--section-accent), rgba(169, 130, 115, 0));
 }
 
 .cv-section__body {
@@ -335,7 +376,7 @@ body {
 }
 
 .cv-list li::marker {
-  color: var(--morandi-sage);
+  color: var(--section-accent);
 }
 
 .publication-list {
@@ -355,7 +396,7 @@ body {
 }
 
 .publication__venue {
-  color: var(--morandi-clay);
+  color: var(--section-accent);
   font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -384,7 +425,7 @@ body {
 }
 
 .tag-block {
-  border-left: 3px solid var(--morandi-taupe);
+  border-left: 3px solid var(--section-accent);
   padding-left: 0.9rem;
 }
 
@@ -432,11 +473,13 @@ body {
 }
 
 .language-row span {
-  padding: 0.66rem 0.86rem;
+  padding: 0.36rem 0.72rem;
   border: 1px solid var(--morandi-line);
   border-radius: 999px;
   background: var(--morandi-chip);
   color: var(--morandi-muted);
+  line-height: 1.35;
+  font-size: 0.92rem;
 }
 
 .pdf-note {
