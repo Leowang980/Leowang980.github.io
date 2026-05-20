@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Xiuying Wang / About Me"
+title                    : "Xiuying Wang"
 title_separator          : "-"
 name                     : &name "Xiuying Wang(王修荧)"
-description              : &description "personal description"
+description              : &description "Xiuying Wang - BSc Engineering student researching egocentric intelligence, VLM systems, and federated continual learning."
 url                      : https://leowang980.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -167,6 +167,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - _research
   - CHANGELOG
   - Capfile
   - config
@@ -213,10 +214,10 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   research:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

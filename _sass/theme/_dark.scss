@@ -1,53 +1,33 @@
 /* ==========================================================================
-   DARK THEME - BRIDGES Graphite Palette
+   DARK THEME - disabled for Morandi one-page profile
    ========================================================================== */
 
-$background                 : #11151d;
-$background-light           : #171d27;
-$background-lighter         : #2a3442;
-$text                       : #e7ecf5;
-$text-muted                 : #9da9ba;
+$background                 : #f4f0ea;
+$background-light           : #fbf8f3;
+$background-lighter         : #d8cec1;
+$text                       : #3f3b35;
+$text-muted                 : #7d776d;
 
 html[data-theme="dark"] {
     --global-base-color                 : #{$background-light};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #0f141c;
+    --global-footer-bg-color            : #e7dfd4;
     --global-border-color               : #{$background-lighter};
-    --global-dark-border-color          : #39485c;
-    --global-code-background-color      : #181f2a;
+    --global-dark-border-color          : #b8aa99;
+    --global-code-background-color      : #ece5dc;
     --global-code-text-color            : #{$text};
     --global-fig-caption-color          : #{$text-muted};
-    --global-link-color                 : #8fbaff;
-    --global-link-color-hover           : #b7d1ff;
+    --global-link-color                 : #5f7482;
+    --global-link-color-hover           : #405865;
     --global-link-color-visited         : #{$text-muted};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #b7d1ff;
+    --global-masthead-link-color-hover  : #405865;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$text-muted};
-    --global-thead-color                : #{$background-lighter};
+    --global-thead-color                : #e2d9cd;
 
-    --terminal-canvas                   : #090f18;
-    --terminal-glow-soft                : rgba(77, 157, 222, 0.22);
-    --terminal-grid-line                : rgba(116, 154, 191, 0.13);
-    --terminal-header-bg                : rgba(13, 21, 33, 0.82);
-    --terminal-panel-bg                 : rgba(15, 24, 36, 0.84);
-    --terminal-panel-solid              : #131f2e;
-    --terminal-panel-muted              : rgba(14, 21, 32, 0.9);
-    --terminal-sidebar-bg               : rgba(11, 18, 29, 0.88);
-    --terminal-border                   : rgba(99, 135, 171, 0.32);
-    --terminal-border-strong            : rgba(123, 177, 226, 0.56);
-    --terminal-shadow                   : rgba(0, 0, 0, 0.56);
-    --terminal-hover-bg                 : rgba(79, 155, 223, 0.17);
-    --terminal-accent                   : #74b2e4;
-    --terminal-accent-soft              : rgba(116, 178, 228, 0.28);
-    --terminal-warning                  : #e2aa4e;
-    --terminal-code-bg                  : #0f1b2a;
-    --terminal-btn-bg                   : #74b2e4;
-    --terminal-btn-text                 : #0a1422;
-
-    /* Compatibility aliases */
-    --accent-color                      : var(--terminal-accent);
-    --accent-soft                       : var(--terminal-accent-soft);
-    --warning-accent                    : var(--terminal-warning);
-    --surface-raised                    : var(--terminal-panel-solid);
+    --accent-color                      : #6f8490;
+    --accent-soft                       : rgba(111, 132, 144, 0.16);
+    --warning-accent                    : #a98273;
+    --surface-raised                    : #fbf8f3;
 }

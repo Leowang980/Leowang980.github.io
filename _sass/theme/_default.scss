@@ -1,20 +1,20 @@
 /* ==========================================================================
-   DEFAULT THEME - BRIDGES Light Palette
+   DEFAULT THEME - Morandi Light Palette
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #6d7987;
-$dark-gray                  : #2c3642;
-$darker-gray                : #141a22;
-$light-gray                 : #8d98a7;
-$lighter-gray               : #d6dde8;
+$gray                       : #7d776d;
+$dark-gray                  : #3f3b35;
+$darker-gray                : #2f2b26;
+$light-gray                 : #b5a798;
+$lighter-gray               : #d8cec1;
 
 /* Color codes used for the site */
 $danger-color               : #c93c3c;
-$info-color                 : #0a7aff;
-$notice-color               : #0a7aff;
-$success-color              : #2c9f55;
-$warning-color              : #d9901a;
+$info-color                 : #6f8490;
+$notice-color               : #87917f;
+$success-color              : #87917f;
+$warning-color              : #a98273;
 
 /* Other basic settings for the template */
 $border-radius              : 12px;
@@ -26,47 +26,26 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* BRIDGES-like light terminal palette */
 :root {
     --global-base-color                 : #{$dark-gray};
-    --global-bg-color                   : #eef2f8;
-    --global-footer-bg-color            : #e4eaf4;
+    --global-bg-color                   : #f4f0ea;
+    --global-footer-bg-color            : #e7dfd4;
     --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #c3ccda;
-    --global-code-background-color      : #f4f7fb;
-    --global-code-text-color            : #1f2a38;
+    --global-dark-border-color          : #b8aa99;
+    --global-code-background-color      : #ece5dc;
+    --global-code-text-color            : #4b4740;
     --global-fig-caption-color          : #{$gray};
-    --global-link-color                 : #0a5dd8;
-    --global-link-color-hover           : #0049b8;
-    --global-link-color-visited         : #556274;
-    --global-masthead-link-color        : #2f3a47;
-    --global-masthead-link-color-hover  : #0a5dd8;
+    --global-link-color                 : #5f7482;
+    --global-link-color-hover           : #405865;
+    --global-link-color-visited         : #746f68;
+    --global-masthead-link-color        : #514d46;
+    --global-masthead-link-color-hover  : #405865;
     --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #7a8695;
-    --global-thead-color                : #dce3ef;
+    --global-text-color-light           : #{$gray};
+    --global-thead-color                : #e2d9cd;
 
-    --terminal-canvas                   : #eef4fb;
-    --terminal-glow-soft                : rgba(127, 194, 231, 0.26);
-    --terminal-grid-line                : rgba(116, 156, 192, 0.17);
-    --terminal-header-bg                : rgba(245, 250, 255, 0.82);
-    --terminal-panel-bg                 : rgba(249, 252, 255, 0.84);
-    --terminal-panel-solid              : #f3f8ff;
-    --terminal-panel-muted              : rgba(237, 245, 253, 0.9);
-    --terminal-sidebar-bg               : rgba(238, 246, 255, 0.88);
-    --terminal-border                   : rgba(121, 149, 176, 0.32);
-    --terminal-border-strong            : rgba(90, 132, 168, 0.56);
-    --terminal-shadow                   : rgba(42, 69, 99, 0.2);
-    --terminal-hover-bg                 : rgba(88, 155, 212, 0.14);
-    --terminal-accent                   : #0e6bc8;
-    --terminal-accent-soft              : rgba(14, 107, 200, 0.2);
-    --terminal-warning                  : #cc8a1d;
-    --terminal-code-bg                  : #edf4fb;
-    --terminal-btn-bg                   : #0e6bc8;
-    --terminal-btn-text                 : #ffffff;
-
-    /* Compatibility aliases */
-    --accent-color                      : var(--terminal-accent);
-    --accent-soft                       : var(--terminal-accent-soft);
-    --warning-accent                    : var(--terminal-warning);
-    --surface-raised                    : var(--terminal-panel-solid);
+    --accent-color                      : #6f8490;
+    --accent-soft                       : rgba(111, 132, 144, 0.16);
+    --warning-accent                    : #a98273;
+    --surface-raised                    : #fbf8f3;
 }
