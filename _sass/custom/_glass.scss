@@ -666,19 +666,21 @@ html[data-theme="dark"] .skills-list li {
     display: contents;
   }
 
-  .profile-hero__eyebrow,
-  .profile-hero h1 {
-    grid-column: 1;
+  .profile-hero__eyebrow {
+    grid-column: 1 / -1;
+    margin-bottom: 1.1rem;
   }
 
-  .profile-hero__eyebrow {
-    margin-bottom: 1.1rem;
+  .profile-hero h1 {
+    grid-column: 1;
+    grid-row: 2;
   }
 
   .profile-hero__portrait {
     grid-column: 2;
-    grid-row: 1 / span 2;
+    grid-row: 2;
     justify-self: end;
+    align-self: center;
     width: 100%;
     margin: 0;
   }
@@ -686,6 +688,14 @@ html[data-theme="dark"] .skills-list li {
   .profile-hero__subtitle,
   .profile-hero__links {
     grid-column: 1 / -1;
+  }
+
+  .profile-hero__subtitle {
+    grid-row: 3;
+  }
+
+  .profile-hero__links {
+    grid-row: 4;
   }
 
   .cv-section {
