@@ -365,6 +365,10 @@ body {
   background: linear-gradient(270deg, var(--section-wash), transparent 62%);
 }
 
+.cv-section:nth-of-type(odd) {
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
+}
+
 .cv-section:nth-of-type(odd) .cv-section__title {
   grid-column: 2;
   text-align: right;
