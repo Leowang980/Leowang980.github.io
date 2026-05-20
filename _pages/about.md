@@ -8,7 +8,7 @@ author_profile: false
   <section class="profile-hero" id="top">
     <div>
       <p class="profile-hero__eyebrow">BSc Engineering · AI Research</p>
-      <h1><span>Xiuying</span><span>Wang</span></h1>
+      <h1><span>Xiuying Wang</span><span class="profile-hero__name-cn">王修荧</span></h1>
       <p class="profile-hero__subtitle">
         BSc Engineering student at Queen Mary University of London and Beijing University of Posts and Telecommunications.
         My work focuses on egocentric intelligence, vision-language model systems, federated learning, and continual learning.

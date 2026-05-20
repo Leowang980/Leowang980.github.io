@@ -167,7 +167,7 @@ body {
 }
 
 .profile-hero__eyebrow {
-  margin: 0 0 0.9rem;
+  margin: 0 0 3rem;
   color: var(--morandi-sage);
   font-size: 0.78rem;
   font-weight: 700;
@@ -189,9 +189,18 @@ body {
   display: block;
 }
 
+.profile-hero__name-cn {
+  margin-top: 0.65rem;
+  color: var(--morandi-ink);
+  font-size: 0.62em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
 .profile-hero__subtitle {
   max-width: 720px;
-  margin: 2.35rem 0 0;
+  margin: 0;
+  padding-top: 2.6rem;
   color: var(--morandi-muted);
   font-size: clamp(1.08rem, 2vw, 1.32rem);
   line-height: 1.72;
@@ -503,7 +512,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .one-page {
-    padding-top: 3.25rem;
+    padding-top: 2.25rem;
   }
 
   .profile-hero {
@@ -541,6 +550,10 @@ body {
 
   .profile-hero h1 {
     font-size: 3rem;
+  }
+
+  .profile-hero__subtitle {
+    padding-top: 3.25rem;
   }
 
   .publication {
