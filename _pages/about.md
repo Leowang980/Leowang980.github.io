@@ -8,8 +8,10 @@ author_profile: false
   <section class="home-hero" id="top">
     <div class="home-hero__content">
       <p class="home-hero__eyebrow">BSc Engineering · AI Research</p>
-      <h1>Xiuying Wang</h1>
-      <p class="home-hero__cn">王修荧</p>
+      <div class="home-hero__name">
+        <h1>Xiuying Wang</h1>
+        <p class="home-hero__cn">王修荧</p>
+      </div>
       <div class="home-hero__icons" aria-label="profile links">
         <a href="mailto:xiuying.wang@se23.qmul.ac.uk" aria-label="Email" title="Email">
           <i class="fa-solid fa-envelope" aria-hidden="true"></i>
@@ -27,9 +29,6 @@ author_profile: false
     </div>
 
     <div class="home-hero__side">
-      <figure class="home-hero__portrait">
-        <img src="/images/XiuyingWang.png" alt="Xiuying Wang">
-      </figure>
       <nav class="home-hero__menu" aria-label="homepage sections">
         <a href="#about">About</a>
         <a href="#news">News</a>
@@ -45,12 +44,23 @@ author_profile: false
       <h2>About</h2>
     </div>
     <div class="home-about">
-      <p>
-        I am currently pursuing a Bachelor of Science (Engineering) at Queen Mary University of London and Beijing University of Posts and Telecommunications. My research interests lie in egocentric intelligence, vision-language model systems, federated learning, and continual learning.
-      </p>
-      <p>
-        I have been fortunate to receive research guidance from Yichen Li and Jingkang Yang. Through these collaborations, I work on federated continual learning, model-heterogeneous federated learning, and long-form egocentric video understanding.
-      </p>
+      <div class="home-about__text">
+        <p>
+          I am currently pursuing a Bachelor of Science (Engineering) at <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> and <a href="https://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a>.
+        </p>
+        <p>
+          I have been fortunate to receive kind and valuable guidance from <a href="https://yichenli-hust.github.io/">Yichen Li</a> and <a href="https://jingkangyang.com/">Jingkang Yang</a>. With Yichen, I work on federated continual learning and model-heterogeneous federated learning. With Jingkang at <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, in <a href="https://liuziwei7.github.io/">Prof. Ziwei Liu</a>'s team, I explore egocentric intelligence and long-form video understanding.
+        </p>
+        <p>
+          I also had a valuable time at <a href="https://synvo.ai/">Synvo.ai</a>, building VLM-powered agent systems for real-world retail scenarios, and I am currently working with Action Intelligence on scalable egocentric data collection for embodied AI.
+        </p>
+        <p>
+          My research lies in Multimodality, Egocentric AI, Agentic Memory, Federated Learning, and Continual Learning. Feel free to reach out for collaborations, questions, or just to chat.
+        </p>
+      </div>
+      <figure class="home-about__portrait">
+        <img src="/images/XiuyingWang.png" alt="Xiuying Wang">
+      </figure>
     </div>
   </section>
 
