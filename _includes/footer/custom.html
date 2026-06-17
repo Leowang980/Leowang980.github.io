@@ -1,3 +1,109 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
+<script>
+  (function () {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+
+    var canvas = document.createElement("canvas");
+    canvas.className = "data-particles";
+    canvas.setAttribute("aria-hidden", "true");
+    document.body.prepend(canvas);
+
+    var context = canvas.getContext("2d");
+    var width = 0;
+    var height = 0;
+    var points = [];
+    var pointer = { x: -9999, y: -9999 };
+    var maxDistance = 190;
+    var particleCount = 150;
+
+    function resize() {
+      var ratio = window.devicePixelRatio || 1;
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = Math.round(width * ratio);
+      canvas.height = Math.round(height * ratio);
+      canvas.style.width = width + "px";
+      canvas.style.height = height + "px";
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      particleCount = Math.min(240, Math.max(90, Math.round(width * height / 8500)));
+      points = Array.from({ length: particleCount }, function () {
+        return {
+          x: Math.random() * width,
+          y: Math.random() * height,
+          vx: (Math.random() - 0.5) * 0.45,
+          vy: (Math.random() - 0.5) * 0.45,
+          r: 0.7 + Math.random() * 1.3
+        };
+      });
+    }
+
+    function draw() {
+      context.clearRect(0, 0, width, height);
+      var dark = document.documentElement.getAttribute("data-theme") === "dark";
+      var pointColor = dark ? "rgba(188,188,188,0.48)" : "rgba(119,119,119,0.46)";
+      var lineColor = dark ? "rgba(188,188,188," : "rgba(120,120,120,";
+
+      for (var i = 0; i < points.length; i += 1) {
+        var p = points[i];
+        p.x += p.vx;
+        p.y += p.vy;
+
+        if (p.x < -20) p.x = width + 20;
+        if (p.x > width + 20) p.x = -20;
+        if (p.y < -20) p.y = height + 20;
+        if (p.y > height + 20) p.y = -20;
+
+        context.beginPath();
+        context.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        context.fillStyle = pointColor;
+        context.fill();
+
+        for (var j = i + 1; j < points.length; j += 1) {
+          var q = points[j];
+          var dx = p.x - q.x;
+          var dy = p.y - q.y;
+          var distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < maxDistance) {
+            context.beginPath();
+            context.moveTo(p.x, p.y);
+            context.lineTo(q.x, q.y);
+            context.strokeStyle = lineColor + (0.18 * (1 - distance / maxDistance)).toFixed(3) + ")";
+            context.lineWidth = 1;
+            context.stroke();
+          }
+        }
+
+        var px = p.x - pointer.x;
+        var py = p.y - pointer.y;
+        var pointerDistance = Math.sqrt(px * px + py * py);
+        if (pointerDistance < 310) {
+          context.beginPath();
+          context.moveTo(p.x, p.y);
+          context.lineTo(pointer.x, pointer.y);
+          context.strokeStyle = lineColor + (0.45 * (1 - pointerDistance / 310)).toFixed(3) + ")";
+          context.stroke();
+        }
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    window.addEventListener("resize", resize);
+    window.addEventListener("mousemove", function (event) {
+      pointer.x = event.clientX;
+      pointer.y = event.clientY;
+    });
+    window.addEventListener("mouseleave", function () {
+      pointer.x = -9999;
+      pointer.y = -9999;
+    });
+
+    resize();
+    draw();
+  }());
+</script>
 <!-- end custom footer snippets -->
