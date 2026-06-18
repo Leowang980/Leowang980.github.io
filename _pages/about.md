@@ -44,6 +44,9 @@ author_profile: false
       <h2>About</h2>
     </div>
     <div class="home-about">
+      <figure class="home-about__portrait">
+        <img src="/images/XiuyingWang.png" alt="Xiuying Wang">
+      </figure>
       <div class="home-about__text">
         <p>
           I am currently pursuing a Bachelor of Science (Engineering) at <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> and <a href="https://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a>.
@@ -58,9 +61,6 @@ author_profile: false
           My research lies in Multimodality, Egocentric AI, Agentic Memory, Federated Learning, and Continual Learning. Feel free to reach out for collaborations, questions, or just to chat.
         </p>
       </div>
-      <figure class="home-about__portrait">
-        <img src="/images/XiuyingWang.png" alt="Xiuying Wang">
-      </figure>
     </div>
   </section>
 
@@ -96,27 +96,36 @@ author_profile: false
     </div>
     <div class="publication-list">
       <article class="publication">
-        <div class="publication__venue">ICML 2026</div>
-        <div>
+        <figure class="publication__thumb">
+          <img src="/images/publications/Li-FIL.png" alt="Lightweight federated incremental learning thumbnail">
+        </figure>
+        <div class="publication__content">
           <h3>Lightweight Federated Incremental Learning via Decoupled Replay.</h3>
           <p>Xiuying Wang, Yichen Li, Hang Su, Gaozhuo Liu, Shiwei Li, Chuang Zhao, Jiangming Shi, Imran Razzak</p>
         </div>
+        <div class="publication__venue">ICML 2026</div>
       </article>
 
       <article class="publication">
-        <div class="publication__venue">TPAMI</div>
-        <div>
+        <figure class="publication__thumb">
+          <img src="/images/publications/Ego-R1.png" alt="Long egocentric video reasoning thumbnail">
+        </figure>
+        <div class="publication__content">
           <h3>Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning.</h3>
           <p>S. Tian, R. Wang, H. Guo, P. Wu, Y. Dong, Xiuying Wang, Jingkang Yang, Hao Zhang, Hongyuan Zhu, Ziwei Liu</p>
         </div>
+        <div class="publication__venue">TPAMI</div>
       </article>
 
       <article class="publication">
-        <div class="publication__venue">NeurIPS 2025</div>
-        <div>
+        <figure class="publication__thumb">
+          <img src="/images/publications/FedFD.png" alt="Feature distillation federated learning thumbnail">
+        </figure>
+        <div class="publication__content">
           <h3>Feature Distillation is the Better Choice for Model-Heterogeneous Federated Learning.</h3>
           <p>Yichen Li, Xiuying Wang, Wenchao Xu, Haozhao Wang, Yining Qi, Jiahua Dong, Ruixuan Li</p>
         </div>
+        <div class="publication__venue">NeurIPS 2025</div>
       </article>
     </div>
   </section>
