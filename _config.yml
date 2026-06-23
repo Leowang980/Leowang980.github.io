@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "XiuyingWang.png"
+  avatar           : "XiuyingWang.jpg"
   name             : "Xiuying Wang(王修荧)"
   pronouns         : "he/him"
   bio              : "BSc Engineering student researching egocentric intelligence, VLM systems, and federated continual learning."
@@ -135,7 +135,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "XiuyingWang.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

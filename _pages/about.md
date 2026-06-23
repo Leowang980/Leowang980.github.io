@@ -45,7 +45,7 @@ author_profile: false
     </div>
     <div class="home-about">
       <figure class="home-about__portrait">
-        <img src="/images/XiuyingWang.png" alt="Xiuying Wang">
+        <img src="/images/XiuyingWang.jpg" alt="Xiuying Wang">
       </figure>
       <div class="home-about__text">
         <p>
