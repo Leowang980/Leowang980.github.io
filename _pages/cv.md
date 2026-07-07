@@ -103,10 +103,10 @@ redirect_from:
     <div class="cv-section__body">
       <article class="cv-item">
         <div class="cv-item__topline">
-          <h3>Multimedia Lab, Nanyang Technological University (MMLab-NTU)</h3>
+          <h3>Egocentric Intelligence Research with Dr. Jingkang Yang</h3>
           <span class="cv-item__meta">Oct 2024 - Mar 2026</span>
         </div>
-        <p>Working closely with Jingkang Yang (Ph.D.) in Ziwei Liu's team · Singapore</p>
+        <p>Undergraduate Research Intern, working closely with Dr. Jingkang Yang · Singapore</p>
         <ul class="cv-list">
           <li><strong>EgoLife:</strong> supported the construction and annotation of the EgoLife dataset, and helped develop EgoRAG, a retrieval-augmented generation system for long-form egocentric video understanding.</li>
           <li><strong>Ego-R1 [2]:</strong> participated in developing a reasoning-agent framework and benchmark for long egocentric video understanding, focusing on tool-augmented reasoning and evaluation design.</li>
@@ -133,7 +133,7 @@ redirect_from:
     <div class="cv-section__body">
       <article class="cv-item">
         <div class="cv-item__topline">
-          <h3>Synvo.ai & MMLab-NTU</h3>
+          <h3>Synvo.ai</h3>
           <span class="cv-item__meta">Aug 2025 - Mar 2026</span>
         </div>
         <p>Research Engineer Intern in Chen Change Loy's team · Singapore</p>
@@ -149,7 +149,7 @@ redirect_from:
           <h3>Action Intelligence</h3>
           <span class="cv-item__meta">May 2026 - Present</span>
         </div>
-        <p>Research Engineer Intern in Jingkang Yang's team · Shanghai, China</p>
+        <p>Research Engineer Intern with Dr. Jingkang Yang · Shanghai, China</p>
         <ul class="cv-list">
           <li><strong>Scalable Egocentric Data Collection for Embodied AI:</strong> designing and implementing a multimodal data-collection pipeline that integrates smart glasses, IMU sensors, AprilTag-based calibration, hand-pose estimation algorithms, and customized hardware to collect scalable egocentric interaction data for embodied intelligence research.</li>
         </ul>

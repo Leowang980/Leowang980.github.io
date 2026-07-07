@@ -52,7 +52,7 @@ author_profile: false
           I am currently pursuing a Bachelor of Science (Engineering) at <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> and <a href="https://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a>.
         </p>
         <p>
-          I have been fortunate to receive kind and valuable guidance from <a href="https://yichenli-hust.github.io/">Yichen Li</a> and <a href="https://jingkangyang.com/">Jingkang Yang</a>. With Yichen, I work on federated continual learning and model-heterogeneous federated learning. With Jingkang at <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, in <a href="https://liuziwei7.github.io/">Prof. Ziwei Liu</a>'s team, I explore egocentric intelligence and long-form video understanding.
+          I have been fortunate to receive kind and valuable guidance from <a href="https://yichenli-hust.github.io/">Yichen Li</a> and <a href="https://jingkangyang.com/">Dr. Jingkang Yang</a>. With Yichen, I work on federated continual learning and model-heterogeneous federated learning. With Dr. Yang, I explore egocentric intelligence and long-form video understanding.
         </p>
         <p>
           I also had a valuable time at <a href="https://synvo.ai/">Synvo.ai</a>, building VLM-powered agent systems for real-world retail scenarios, and I am currently working with Action Intelligence on scalable egocentric data collection for embodied AI.
@@ -80,11 +80,11 @@ author_profile: false
       </article>
       <article class="news-item">
         <time>Aug 2025</time>
-        <p>Joined Synvo.ai & MMLab-NTU as a Research Engineer Intern in Chen Change Loy's team.</p>
+        <p>Worked with Synvo.ai as a Research Engineer Intern on VLM-powered agent systems for retail scenarios.</p>
       </article>
       <article class="news-item">
         <time>Oct 2024</time>
-        <p>Joined MMLab-NTU, working with Jingkang Yang in Ziwei Liu's team on egocentric video understanding.</p>
+        <p>Started as an Undergraduate Research Intern with Dr. Jingkang Yang on egocentric video understanding.</p>
       </article>
     </div>
   </section>
