@@ -72,7 +72,11 @@ author_profile: false
     <div class="news-list">
       <article class="news-item">
         <time>May 2026</time>
-        <p>My first first-author paper, <em>Lightweight Federated Incremental Learning via Decoupled Replay</em>, was accepted to ICML 2026. I am deeply grateful to Yichen Li for his guidance and support.</p>
+        <p>Started as a Research Engineer Intern at Action Intelligence, working on scalable egocentric data collection for embodied AI.</p>
+      </article>
+      <article class="news-item">
+        <time>May 2026</time>
+        <p><em>Lightweight Federated Incremental Learning via Decoupled Replay</em>, my first paper as first author, was accepted to ICML 2026. Grateful to Yichen Li for his guidance.</p>
       </article>
       <article class="news-item">
         <time>May 2026</time>
@@ -80,11 +84,15 @@ author_profile: false
       </article>
       <article class="news-item">
         <time>Sep 2025</time>
-        <p>My first paper, <em>Feature Distillation is the Better Choice for Model-Heterogeneous Federated Learning</em>, was accepted to NeurIPS 2025. I am deeply grateful to Yichen Li for his guidance and support.</p>
+        <p><em>Feature Distillation is the Better Choice for Model-Heterogeneous Federated Learning</em>, my first paper, was accepted to NeurIPS 2025. Grateful to Yichen Li for his guidance.</p>
+      </article>
+      <article class="news-item">
+        <time>Aug 2025</time>
+        <p>Started as a Research Engineer Intern at Synvo.ai, working on VLM-powered agent systems for retail scenarios.</p>
       </article>
       <article class="news-item">
         <time>Oct 2024</time>
-        <p>Began working with Dr. Jingkang Yang on <em>Ego-R1</em>.</p>
+        <p>Began working with Dr. Jingkang Yang on egocentric AI.</p>
       </article>
       <article class="news-item">
         <time>Apr 2024</time>
