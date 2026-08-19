@@ -560,6 +560,24 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   color: var(--data-muted);
 }
 
+.cv-hero__links .cv-hero__download {
+  display: inline-flex;
+  gap: 0.55rem;
+  align-items: center;
+  padding: 0.78rem 1rem;
+  border: 1px solid var(--data-ink);
+  margin-top: 0.55rem;
+  background: var(--data-ink);
+  color: var(--data-paper);
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.cv-hero__links .cv-hero__download:hover {
+  background: var(--data-paper);
+  color: var(--data-ink);
+  transform: translateY(-2px);
+}
+
 .cv-item__topline {
   display: flex;
   flex-wrap: wrap;

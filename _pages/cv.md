@@ -19,7 +19,10 @@ redirect_from:
       <a href="https://scholar.google.com/citations?user=wIUgjFoAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
       <a href="https://www.linkedin.com/in/xiuying-wang-727428337/">LinkedIn</a>
       <a href="https://leowang980.github.io/">Website</a>
-      <a href="/files/XiuyingWang.pdf">PDF CV</a>
+      <a class="cv-hero__download" href="/files/XiuyingWang.pdf" target="_blank" rel="noopener">
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+        Download CV as PDF
+      </a>
     </div>
   </section>
 
