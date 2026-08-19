@@ -13,7 +13,7 @@ author_profile: false
         <p class="home-hero__cn">王修荧</p>
       </div>
       <div class="home-hero__icons" aria-label="profile links">
-        <a href="#contact" aria-label="Contact" title="Contact">
+        <a href="mailto:xiuying.wang@se23.qmul.ac.uk" aria-label="Email" title="Email">
           <i class="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         <a href="https://scholar.google.com/citations?user=wIUgjFoAAAAJ&hl=zh-CN&oi=ao" aria-label="Google Scholar" title="Google Scholar">
@@ -91,14 +91,22 @@ author_profile: false
         <time>Aug 2025</time>
         <p>Started as a Research Engineer Intern at Synvo.ai, working on VLM-powered agent systems for retail scenarios.</p>
       </article>
-      <article class="news-item">
-        <time>Oct 2024</time>
-        <p>Began working with Dr. Jingkang Yang on egocentric AI.</p>
-      </article>
-      <article class="news-item">
-        <time>Apr 2024</time>
-        <p>Began working with Yichen Li on federated learning research.</p>
-      </article>
+      <details class="news-more">
+        <summary>
+          <span class="news-more__show">View older news</span>
+          <span class="news-more__hide">Hide older news</span>
+        </summary>
+        <div class="news-more__list">
+          <article class="news-item">
+            <time>Oct 2024</time>
+            <p>Began working with Dr. Jingkang Yang on egocentric AI.</p>
+          </article>
+          <article class="news-item">
+            <time>Apr 2024</time>
+            <p>Began working with Yichen Li on federated learning research.</p>
+          </article>
+        </div>
+      </details>
     </div>
   </section>
 
@@ -169,9 +177,15 @@ author_profile: false
     </div>
     <div class="home-contact">
       <p>For collaborations, research discussions, or just to say hello, feel free to reach out.</p>
-      <div class="home-contact__email">
+      <a class="home-contact__email" href="mailto:xiuying.wang@se23.qmul.ac.uk">
         <span>Email</span>
-        <strong>xiuying [dot] wang [at] se23 [dot] qmul [dot] ac [dot] uk</strong>
+        <strong>xiuying.wang@se23.qmul.ac.uk</strong>
+        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
+      <div class="home-contact__wechat">
+        <span>WeChat</span>
+        <strong>WANGXYwsx</strong>
+        <i class="fa-brands fa-weixin" aria-hidden="true"></i>
       </div>
     </div>
   </section>

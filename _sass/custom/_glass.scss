@@ -548,6 +548,61 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   background: linear-gradient(135deg, var(--data-accent-soft), var(--data-warm-soft));
 }
 
+.cv-page .cv-section__body,
+.cv-page .cv-hero__links {
+  padding: 1.5rem;
+  border-left: 3px solid var(--data-accent);
+  background: linear-gradient(135deg, var(--data-accent-soft), var(--data-warm-soft));
+}
+
+.news-more {
+  padding-top: 0.15rem;
+}
+
+.news-more summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  cursor: pointer;
+  color: var(--data-accent);
+  font-size: 0.84rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+.news-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-more summary::after {
+  margin-left: 0.5rem;
+  content: "+";
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+}
+
+.news-more[open] summary::after {
+  content: "−";
+}
+
+.news-more__hide {
+  display: none;
+}
+
+.news-more[open] .news-more__show {
+  display: none;
+}
+
+.news-more[open] .news-more__hide {
+  display: inline;
+}
+
+.news-more__list {
+  display: grid;
+  gap: 1.25rem;
+  padding-top: 1rem;
+}
+
 .home-visitors {
   border-top-color: var(--data-accent);
 }
@@ -603,17 +658,20 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   line-height: 1.68;
 }
 
-.home-contact__email {
+.home-contact__email,
+.home-contact__wechat {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 0.9rem;
   align-items: center;
   padding-top: 1.1rem;
   border-top: 1px solid var(--data-line-strong);
   color: var(--data-ink);
+  text-decoration: none;
 }
 
-.home-contact__email span {
+.home-contact__email span,
+.home-contact__wechat span {
   color: var(--data-accent);
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.76rem;
@@ -621,9 +679,24 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   text-transform: uppercase;
 }
 
-.home-contact__email strong {
+.home-contact__email strong,
+.home-contact__wechat strong {
   overflow-wrap: anywhere;
   font-size: clamp(1rem, 2vw, 1.28rem);
+}
+
+.home-contact__email i,
+.home-contact__wechat i {
+  color: var(--data-warm);
+  transition: transform 160ms ease;
+}
+
+.home-contact__email:hover {
+  color: var(--data-accent);
+}
+
+.home-contact__email:hover i {
+  transform: translate(2px, -2px);
 }
 
 .publication h3,
@@ -659,15 +732,6 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   color: var(--data-ink);
   font-weight: 700;
   text-decoration: none;
-}
-
-.cv-hero__email {
-  max-width: 24rem;
-  color: var(--data-muted);
-  font-size: 0.88rem;
-  font-weight: 600;
-  line-height: 1.5;
-  text-align: right;
 }
 
 .cv-hero__links a:hover,
@@ -803,10 +867,6 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
     justify-items: start;
   }
 
-  .cv-hero__email {
-    text-align: left;
-  }
-
   .tag-grid {
     grid-template-columns: 1fr;
   }
@@ -853,6 +913,11 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
     padding: 1.1rem;
   }
 
+  .cv-page .cv-section__body,
+  .cv-page .cv-hero__links {
+    padding: 1.1rem;
+  }
+
   .home-hero h1,
   .cv-hero h1 {
     font-size: 4.4rem;
@@ -882,11 +947,13 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
     max-width: 18rem;
   }
 
-  .home-contact__email {
-    grid-template-columns: 1fr;
+  .home-contact__email,
+  .home-contact__wechat {
+    grid-template-columns: 1fr auto;
   }
 
-  .home-contact__email span {
+  .home-contact__email span,
+  .home-contact__wechat span {
     grid-column: 1 / -1;
   }
 }

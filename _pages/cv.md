@@ -15,7 +15,7 @@ redirect_from:
       <p>BSc Engineering student researching egocentric intelligence, VLM systems, and federated continual learning.</p>
     </div>
     <div class="cv-hero__links">
-      <span class="cv-hero__email">xiuying [dot] wang [at] se23 [dot] qmul [dot] ac [dot] uk</span>
+      <a href="mailto:xiuying.wang@se23.qmul.ac.uk">xiuying.wang@se23.qmul.ac.uk</a>
       <a href="https://scholar.google.com/citations?user=wIUgjFoAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>
       <a href="https://www.linkedin.com/in/xiuying-wang-727428337/">LinkedIn</a>
       <a href="https://leowang980.github.io/">Website</a>
@@ -199,7 +199,7 @@ redirect_from:
     <h2 class="cv-section__title">Language</h2>
     <div class="cv-section__body">
       <div class="language-row">
-        <span><strong>English:</strong> CEFR B2</span>
+        <span><strong>English:</strong> CEFR C1 (IELTS 7.0)</span>
         <span><strong>Chinese:</strong> Native</span>
       </div>
     </div>
