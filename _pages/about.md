@@ -33,6 +33,7 @@ author_profile: false
         <a href="#about">About</a>
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
         <a href="/cv/">CV</a>
       </nav>
     </div>
@@ -148,16 +149,31 @@ author_profile: false
       <h2>Visitors</h2>
     </div>
     <div class="visitor-map">
-      <p>Where visitors to this website come from.</p>
-      <div class="visitor-map__widget" aria-label="Live map of website visitors">
-        <script id="_wauv4k">
-          var visitorMapWidth = Math.min(420, Math.max(280, window.innerWidth - 32));
-          var visitorMapHeight = Math.round(visitorMapWidth / 2);
-          var _wau = _wau || [];
-          _wau.push(["map", "3jf5y9ho5z", "v4k", String(visitorMapWidth), String(visitorMapHeight), "textbook", "star-blue"]);
-        </script>
-        <script async src="https://waust.at/m.js"></script>
+      <p>A live view of where visitors to this website come from.</p>
+      <div class="visitor-map__frame" aria-label="Live map of website visitors">
+        <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=VMWGxvKCUeXJX-HR1gf1L0Ka3FOc29P2ZQ_e7AQ9SYo&cl=ffffff&w=a"></script>
+        <noscript>
+          <a href="https://mapmyvisitors.com/web/1c7kn" title="Visit tracker">
+            <img src="https://mapmyvisitors.com/map.png?d=VMWGxvKCUeXJX-HR1gf1L0Ka3FOc29P2ZQ_e7AQ9SYo&cl=ffffff" alt="Map showing website visitor locations">
+          </a>
+        </noscript>
       </div>
+      <a class="visitor-map__stats" href="https://mapmyvisitors.com/web/1c7kn">View visitor statistics <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <section class="home-section" id="contact">
+    <div>
+      <p class="section-kicker">Get in Touch</p>
+      <h2>Contact</h2>
+    </div>
+    <div class="home-contact">
+      <p>For collaborations, research discussions, or just to say hello, feel free to reach out.</p>
+      <a class="home-contact__email" href="mailto:xiuying.wang@se23.qmul.ac.uk">
+        <span>Email</span>
+        <strong>xiuying.wang@se23.qmul.ac.uk</strong>
+        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
     </div>
   </section>
 </main>

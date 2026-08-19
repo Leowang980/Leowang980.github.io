@@ -555,15 +555,83 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   line-height: 1.68;
 }
 
-.visitor-map__widget {
-  display: flex;
-  width: min(100%, 420px);
-  min-height: 140px;
-  align-items: center;
-  justify-content: center;
+.visitor-map__frame {
+  width: min(100%, 760px);
+  min-height: 210px;
+  padding: 1rem;
   overflow: hidden;
   border: 1px solid var(--data-line-strong);
+  background: linear-gradient(135deg, var(--data-accent-soft), var(--data-paper) 48%, var(--data-warm-soft));
+  box-shadow: 0 18px 50px -40px var(--data-shadow);
+}
+
+.visitor-map__frame a,
+.visitor-map__frame img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.visitor-map__stats {
+  color: var(--data-accent);
+  font-size: 0.84rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.visitor-map__stats:hover {
+  color: var(--data-warm);
+}
+
+.home-contact {
+  display: grid;
+  gap: 1.35rem;
+  padding: 1.5rem;
+  border-left: 3px solid var(--data-accent);
   background: linear-gradient(135deg, var(--data-accent-soft), var(--data-warm-soft));
+}
+
+.home-contact > p {
+  margin: 0;
+  color: var(--data-muted);
+  line-height: 1.68;
+}
+
+.home-contact__email {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.9rem;
+  align-items: center;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--data-line-strong);
+  color: var(--data-ink);
+  text-decoration: none;
+}
+
+.home-contact__email span {
+  color: var(--data-accent);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.home-contact__email strong {
+  overflow-wrap: anywhere;
+  font-size: clamp(1rem, 2vw, 1.28rem);
+}
+
+.home-contact__email i {
+  color: var(--data-warm);
+  transition: transform 160ms ease;
+}
+
+.home-contact__email:hover {
+  color: var(--data-accent);
+}
+
+.home-contact__email:hover i {
+  transform: translate(2px, -2px);
 }
 
 .publication h3,
@@ -799,6 +867,14 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
 
   .publication__thumb {
     max-width: 18rem;
+  }
+
+  .home-contact__email {
+    grid-template-columns: 1fr auto;
+  }
+
+  .home-contact__email span {
+    grid-column: 1 / -1;
   }
 }
 
