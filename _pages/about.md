@@ -159,7 +159,7 @@ author_profile: false
     <div class="visitor-map">
       <p>A live view of where visitors to this website come from.</p>
       <div class="visitor-map__frame" aria-label="Live map of website visitors">
-        <script src="https://statable.com/js/a918Af8df3/t/mw.js" data-id="3265457" data-period="90d" data-outer-radius="32" data-display-mode="cities"></script>
+        <script src="https://statable.com/js/a918Af8df3/t/mw.js" data-id="3265457" data-period="90d" data-theme="light" data-outer-radius="32" data-display-mode="cities"></script>
       </div>
     </div>
   </section>
