@@ -22,8 +22,8 @@ author_profile: false
         <a href="https://www.linkedin.com/in/xiuying-wang-727428337/" aria-label="LinkedIn" title="LinkedIn">
           <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
         </a>
-        <a href="/files/XiuyingWang.pdf" aria-label="PDF CV" title="PDF CV">
-          <i class="ai ai-cv" aria-hidden="true"></i>
+        <a href="https://github.com/Leowang980" aria-label="GitHub" title="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
         </a>
       </div>
     </div>
