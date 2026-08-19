@@ -52,7 +52,7 @@ author_profile: false
           I am currently pursuing a Bachelor of Science (Engineering) at <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> and <a href="https://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a>.
         </p>
         <p>
-          I have been fortunate to receive kind and valuable guidance from <a href="https://yichenli-hust.github.io/">Yichen Li</a> and <a href="https://jingkangyang.com/">Dr. Jingkang Yang</a>. With Yichen, I work on federated continual learning and model-heterogeneous federated learning. With Dr. Yang, I explore egocentric intelligence and long-form video understanding.
+          I have been fortunate to receive kind and valuable guidance from <a href="https://yichenli-hust.github.io/">Yichen Li</a> and <a href="https://jingkangyang.com/">Dr. Jingkang Yang</a>. With Yichen, I work on federated learning and continual learning. With Dr. Yang, I explore egocentric AI and multimodal learning.
         </p>
         <p>
           I also had a valuable time at <a href="https://synvo.ai/">Synvo.ai</a>, building VLM-powered agent systems for real-world retail scenarios, and I am currently working with Action Intelligence on scalable egocentric data collection for embodied AI.
@@ -72,19 +72,23 @@ author_profile: false
     <div class="news-list">
       <article class="news-item">
         <time>May 2026</time>
-        <p>Started as a Research Engineer Intern at Action Intelligence, working on scalable egocentric data collection for embodied AI.</p>
+        <p>My first first-author paper, <em>Lightweight Federated Incremental Learning via Decoupled Replay</em>, was accepted to ICML 2026. I am deeply grateful to Yichen Li for his guidance and support.</p>
       </article>
       <article class="news-item">
-        <time>2026</time>
-        <p>Lightweight Federated Incremental Learning via Decoupled Replay accepted to ICML 2026.</p>
+        <time>May 2026</time>
+        <p><em>Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning</em> was accepted to IEEE TPAMI.</p>
       </article>
       <article class="news-item">
-        <time>Aug 2025</time>
-        <p>Worked with Synvo.ai as a Research Engineer Intern on VLM-powered agent systems for retail scenarios.</p>
+        <time>Sep 2025</time>
+        <p>My first paper, <em>Feature Distillation is the Better Choice for Model-Heterogeneous Federated Learning</em>, was accepted to NeurIPS 2025. I am deeply grateful to Yichen Li for his guidance and support.</p>
       </article>
       <article class="news-item">
         <time>Oct 2024</time>
-        <p>Started as an Undergraduate Research Intern with Dr. Jingkang Yang on egocentric video understanding.</p>
+        <p>Began working with Dr. Jingkang Yang on <em>Ego-R1</em>.</p>
+      </article>
+      <article class="news-item">
+        <time>Apr 2024</time>
+        <p>Began working with Yichen Li on federated learning research.</p>
       </article>
     </div>
   </section>
