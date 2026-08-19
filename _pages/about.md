@@ -13,7 +13,7 @@ author_profile: false
         <p class="home-hero__cn">王修荧</p>
       </div>
       <div class="home-hero__icons" aria-label="profile links">
-        <a href="mailto:xiuying.wang@se23.qmul.ac.uk" aria-label="Email" title="Email">
+        <a href="#contact" aria-label="Contact" title="Contact">
           <i class="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         <a href="https://scholar.google.com/citations?user=wIUgjFoAAAAJ&hl=zh-CN&oi=ao" aria-label="Google Scholar" title="Google Scholar">
@@ -169,11 +169,10 @@ author_profile: false
     </div>
     <div class="home-contact">
       <p>For collaborations, research discussions, or just to say hello, feel free to reach out.</p>
-      <a class="home-contact__email" href="mailto:xiuying.wang@se23.qmul.ac.uk">
+      <div class="home-contact__email">
         <span>Email</span>
-        <strong>xiuying.wang@se23.qmul.ac.uk</strong>
-        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-      </a>
+        <strong>xiuying [dot] wang [at] se23 [dot] qmul [dot] ac [dot] uk</strong>
+      </div>
     </div>
   </section>
 </main>
