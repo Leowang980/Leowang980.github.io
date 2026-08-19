@@ -141,4 +141,23 @@ author_profile: false
       </article>
     </div>
   </section>
+
+  <section class="home-section home-visitors" id="visitors">
+    <div>
+      <p class="section-kicker">Global Reach</p>
+      <h2>Visitors</h2>
+    </div>
+    <div class="visitor-map">
+      <p>Where visitors to this website come from.</p>
+      <div class="visitor-map__widget" aria-label="Live map of website visitors">
+        <script id="_wauv4k">
+          var visitorMapWidth = Math.min(420, Math.max(280, window.innerWidth - 32));
+          var visitorMapHeight = Math.round(visitorMapWidth / 2);
+          var _wau = _wau || [];
+          _wau.push(["map", "3jf5y9ho5z", "v4k", String(visitorMapWidth), String(visitorMapHeight), "textbook", "star-blue"]);
+        </script>
+        <script async src="https://waust.at/m.js"></script>
+      </div>
+    </div>
+  </section>
 </main>
