@@ -159,14 +159,8 @@ author_profile: false
     <div class="visitor-map">
       <p>A live view of where visitors to this website come from.</p>
       <div class="visitor-map__frame" aria-label="Live map of website visitors">
-        <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=VMWGxvKCUeXJX-HR1gf1L0Ka3FOc29P2ZQ_e7AQ9SYo&cl=ffffff&w=a"></script>
-        <noscript>
-          <a href="https://mapmyvisitors.com/web/1c7kn" title="Visit tracker">
-            <img src="https://mapmyvisitors.com/map.png?d=VMWGxvKCUeXJX-HR1gf1L0Ka3FOc29P2ZQ_e7AQ9SYo&cl=ffffff" alt="Map showing website visitor locations">
-          </a>
-        </noscript>
+        <script src="https://statable.com/js/a918Af8df3/t/mw.js" data-id="3265457" data-period="90d" data-outer-radius="32" data-display-mode="cities"></script>
       </div>
-      <a class="visitor-map__stats" href="https://mapmyvisitors.com/web/1c7kn">View visitor statistics <span aria-hidden="true">↗</span></a>
     </div>
   </section>
 
