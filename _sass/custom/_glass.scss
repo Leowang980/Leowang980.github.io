@@ -538,6 +538,16 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   border-bottom-color: var(--data-accent);
 }
 
+.home-page .home-about,
+.home-page .news-list,
+.home-page .publication-list,
+.home-page .visitor-map,
+.home-page .home-contact {
+  padding: 1.5rem;
+  border-left: 3px solid var(--data-accent);
+  background: linear-gradient(135deg, var(--data-accent-soft), var(--data-warm-soft));
+}
+
 .home-visitors {
   border-top-color: var(--data-accent);
 }
@@ -560,7 +570,7 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   padding: 1rem;
   overflow: hidden;
   border: 1px solid var(--data-line-strong);
-  background: linear-gradient(135deg, var(--data-accent-soft), var(--data-paper) 48%, var(--data-warm-soft));
+  background: var(--data-paper);
   box-shadow: 0 18px 50px -40px var(--data-shadow);
 }
 
@@ -585,9 +595,6 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
 .home-contact {
   display: grid;
   gap: 1.35rem;
-  padding: 1.5rem;
-  border-left: 3px solid var(--data-accent);
-  background: linear-gradient(135deg, var(--data-accent-soft), var(--data-warm-soft));
 }
 
 .home-contact > p {
@@ -836,6 +843,14 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   .cv-page {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .home-page .home-about,
+  .home-page .news-list,
+  .home-page .publication-list,
+  .home-page .visitor-map,
+  .home-page .home-contact {
+    padding: 1.1rem;
   }
 
   .home-hero h1,
